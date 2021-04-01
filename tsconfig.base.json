@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@testing-react-generators/test-lib": ["libs/test-lib/src/index.ts"],
+      "@testing-react-generators/test-using-generator": [
+        "libs/test-using-generator/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
